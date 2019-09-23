@@ -25,7 +25,10 @@ The rudimentary prediction is based on our team's personal experience of the loc
 - Current day's weather forecast for Boston (high, low, status description, current temperature)
 
 ## How to Use the Program
-Run main.py located [here](https://github.com/tpham393/EC601_MiniProject1).
+- Download necessary Python libraries:
+  - Tweepy
+  - pyowm
+- Run main.py located [here](https://github.com/tpham393/EC601_MiniProject1).
 
 ## Product Mission
 (subject to change as product develops; current as of 9/16/19)
