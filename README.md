@@ -1,5 +1,5 @@
 # Temper
-(ReadMe is a work in progress! 9/16/19)
+(ReadMe is a work in progress! 9/23/19)
 
 ## Background
 As part of the first Mini Project assigned to our EC601 class, our team needs to build a product that sources twitter posts, performs sentiment analysis on these posts, and then conveys that information to the user. There is room for creativity in determining what posts to consider, how to aggregate the sentiment analysis data, and how the information is shared with the product user.
