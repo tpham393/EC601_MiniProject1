@@ -28,7 +28,8 @@ The rudimentary prediction is based on our team's personal experience of the loc
 - Download necessary Python libraries:
   - Tweepy
   - pyowm
-- Run main.py located [here](https://github.com/tpham393/EC601_MiniProject1).
+- Run main.py located [here](https://github.com/tpham393/EC601_MiniProject1/blob/master/Temper/main.py).
+- Input OWM API key (will email separately to appropriate TA/TF)
 
 ## Product Mission
 (subject to change as product develops; current as of 9/16/19)
