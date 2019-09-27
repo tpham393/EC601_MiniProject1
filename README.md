@@ -1,5 +1,5 @@
 # Temper
-(ReadMe is a work in progress! 9/23/19)
+(ReadMe is a work in progress! 9/27/19)
 
 ## Background
 As part of the first Mini Project assigned to our EC601 class, our team needs to build a product that sources twitter posts, performs sentiment analysis on these posts, and then conveys that information to the user. There is room for creativity in determining what posts to consider, how to aggregate the sentiment analysis data, and how the information is shared with the product user.
@@ -62,7 +62,8 @@ A diagram of the overall architecture of the program can be found [here](https:/
 Sample code for API callouts can be found in [this folder]
 
 ### Module - Twitter API
-We decided to use the Python library _______ because ________. This module does ________________
+We decided to use the Python library Tweepy because it seemed more convenient. For example, the professor provided a sample code. There were a lot of additional examples online we could reference to help us figure out how to use the library. It had strong documentation and appeared to be widely used. The library is actively maintained; the latest commit took place within the past month. 
+This module does ________________
 
 ### Module - Google NLP API
 The Google NLP API was a project requirement. It has supporting Python libraries, so that is what we used to interface with the API. The module packages the API callout into a function that accepts the text of the tweet as a parameter and outputs the JSON response of the API. It also stores the JSON response in the proper node of the Firebase Database.
@@ -75,3 +76,25 @@ This module retrieves the current weather forecast for the provided city and/or 
 .......blah........
 Based on the output of the OpenWeatherMap module, the main program uses a set of if-statements/switch statement to make a rudimentary "prediction" of the categorical label of the overall sentiment analysis.
 
+## Testing
+
+## Lessons Learned
+### What you liked doing?
+- learning how to use Twitter and Google APIs
+- researching additional opensource software/tools to help us develop our product
+- implementing process of developing software/product from start to finish
+- how organized our timeline/sprints were
+- good communication between teammates
+
+### What you could have done better?
+- planned more realistically for the allotted timeframe and team's combined skillset(i.e. had too many ambitious goals that were not realized)
+- allocated more time to realize some other goals, e.g. develop a user interface, integrate a database into the architecture
+
+### What you will avoid in the future?
+- researching too many options (i.e. looked at every Python library for Twitter API); should just research a smaller group and decide from there
+
+## Backlog
+- database integration to store historical data (weather, tweets, and sentiment score & magnitude)
+- incorporate ML to predict the overall sentiment category label based on training of historical data
+- user interface
+- display data analysis of historical data, i.e. via graph, overlay weather and sentiment trends
