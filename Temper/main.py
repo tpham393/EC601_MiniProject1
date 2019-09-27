@@ -1,3 +1,6 @@
+from NLP import *
+from OWM import *
+
 # Given a sentiment score & magnitude,
 # uses simple conditionals to determine categorical label
 # Returns "positive", "negative", "neutral", or "mixed"
@@ -20,3 +23,5 @@ def get_sentiment_label(score, magnitude):
 # Uses simple conditionals to predict overall sentiment label
 # given a weather object
 # def get_sentiment_label_weather(weather):
+
+# Main program
