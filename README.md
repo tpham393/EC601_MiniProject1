@@ -28,7 +28,8 @@ The rudimentary prediction is based on our team's personal experience of the loc
 - Download necessary Python libraries:
   - Tweepy
   - pyowm
-- Run main.py located [here](https://github.com/tpham393/EC601_MiniProject1).
+- Run main.py located [here](https://github.com/tpham393/EC601_MiniProject1/blob/master/Temper/main.py).
+- Input OWM API key (will email separately to appropriate TA/TF)
 
 ## Product Mission
 (subject to change as product develops; current as of 9/16/19)
@@ -65,13 +66,6 @@ We decided to use the Python library _______ because ________. This module does 
 
 ### Module - Google NLP API
 The Google NLP API was a project requirement. It has supporting Python libraries, so that is what we used to interface with the API. The module packages the API callout into a function that accepts the text of the tweet as a parameter and outputs the JSON response of the API. It also stores the JSON response in the proper node of the Firebase Database.
-
-### Module - Firebase Databse
-We decided to use a NoSQL database so that we would not have to parse JSON responses from the various APIs. This is in the interest of both time and simplicity. One of our teammates also has mild familiarity with this service. Additionally, Google Firebase has a limited free tier of service that is suitable for the size of this project (1 GB of data storage).
-This module provides functions to store ___________ and retrieve ___________.
-
-The structure of the database looks like:
-___[insert image]______
 
 ### Module - OpenWeatherMap API
 OpenWeatherMap API has a free tier of service that accomplishes what we need. In addition, it appeared to be the most recommended on the web for use of Python. There is also a nice wrapper [pyowm](https://github.com/csparpa/pyowm) with straightforward documentation available for use with the OpenWeatherMap API.
