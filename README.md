@@ -58,8 +58,9 @@ And allows comparison with the current day’s local weather by displaying weath
 -	I, the user, should be able to preview the most recent tweet(s) being analyzed (up to a certain number)
 
 ## Architecture
-A diagram of the overall architecture of the program can be found [here](https://github.com/tpham393/EC601_MiniProject1/blob/master/architecture1.png)
-Sample code for API callouts can be found in [this folder](https://github.com/tpham393/EC601_MiniProject1/tree/master/Modular%20Sample%20Code)
+A diagram of the overall architecture of the program can be found [here](https://github.com/tpham393/EC601_MiniProject1/blob/master/architecture1.png).
+
+Sample code for API callouts can be found in [this folder](https://github.com/tpham393/EC601_MiniProject1/tree/master/Modular%20Sample%20Code).
 
 ### Module - Twitter API
 We decided to use the Python library [tweepy](https://github.com/tweepy/tweepy) because it seemed more convenient. For example, the professor provided a sample code. There were a lot of additional examples online we could reference to help us figure out how to use the library. It had strong documentation and appeared to be widely used. The library is actively maintained; the latest commit took place within the past month. 
