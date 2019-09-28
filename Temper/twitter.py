@@ -24,7 +24,6 @@ def get_tweets():
 
     try:
         api=tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True, compression=True)
-        #print(api.get_status())
 
         if ( api is not None ):
             print("Now retrieving tweets by geocode location (latitude, longitude) and surrounding radius.")
