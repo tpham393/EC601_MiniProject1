@@ -1,6 +1,6 @@
 from Temper import twitter
-from Temper import nlp
-from Temper import owm
+from Temper import NLP
+from Temper import OWM
 
 print('***----- TEMPER -----***')
 print ("""Welcome to the Temper app! This app retrieves tweets within a given radius of a location and performs sentiment analysis on them.
