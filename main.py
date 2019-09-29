@@ -7,7 +7,6 @@ print ("""Welcome to the Temper app! This app retrieves tweets within a given ra
 It also retrieves the weather for a given US city and predicts an overall sentiment category (i.e. "postitive", "negative", "neutral", or "mixed") based on that.""")
 
 print("First, let's get some tweets!")
-print("IMPORTANT NOTE: You will be shown the individual sentiment analysis results for each tweet, so be careful when choosing a number of tweets!")
 tweets = twitter.get_tweets()
 
 if ( tweets is not None ):
