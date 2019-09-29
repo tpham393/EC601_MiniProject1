@@ -18,12 +18,9 @@ if ( tweets is not None ):
     display_tweets = []
 
     for tweet in tweets:
-        if ( tweets.num_tweets <= 5 ):
-            display_tweets.append( (tweets.num_tweets, tweet.text, tweet.user.screen_name) )
-        print('.....For tweet #', tweets.num_tweets, '.....')
         score, magnitude = nlp.get_sentiment(str(tweet.text))
-        print('Score: ', score, ', Magnitude: ', magnitude)
-        print( 'Sentiment label: ', nlp.get_sentiment_label(float(score), float(magnitude)) )
+        if ( tweets.num_tweets <= 5 ):
+            display_tweets.append( (tweets.num_tweets, tweet.text, tweet.user.screen_name, score, magnitude) )
         total_score += float(score)
         total_magnitude += float(magnitude)
 
@@ -37,8 +34,10 @@ if ( tweets is not None ):
         print('----- Tweet #', t[0], ' -----')
         print('Made by: @', t[2])
         print(t[1], '\n')
+        print('Score: ', t[3], ', Magnitude: ', t[4])
+        print( 'Sentiment label: ', nlp.get_sentiment_label(float(t[3]), float(t[4])) )
 
-    print("Now let's check the weather. In order for the data to be meaningful, you should really input the same location as before.")
+    print("\nNow let's check the weather. In order for the data to be meaningful, you should really input the same location as before.")
     try:
         w = owm.get_weather()
         print("Today's weather... ")
